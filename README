@@ -4,7 +4,6 @@ Browsers render textareas differently, the major difference being that Chrome ad
 
 Wouldn't it be great if every browser let the user resize textareas? Now they can! Once you've loaded in jQuery and jQuery UI, standardize your textareas like this:
 
-
 $('textarea').textareaResize();
 
 You can add resize capabilities to only certain text areas, depending on class, for example:
