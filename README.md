@@ -1,13 +1,13 @@
-jQuery plugin to standardize textareas.
+## jQuery plugin to standardize textareas.
 
 Browsers render textareas differently, the major difference being that Chrome adds a resize paddle to the bottom right of each one. These mess up designs and present the user with an inconsistent experience across browsers. 
 
 Wouldn't it be great if every browser let the user resize textareas? Now they can! Once you've loaded in jQuery and jQuery UI, standardize your textareas like this:
 
-$('textarea').textareaResize();
+    $('textarea').textareaResize();
 
 You can add resize capabilities to only certain textures, depending on class, for example:
 
-$('textarea.resize').textareaResize();
+    $('textarea.resize').textareaResize();
 
 Make sure your textareas are inside form elements!
